@@ -14,6 +14,8 @@
 		E695CEFC28B356BB00C2CB62 /* HorizantalCharts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E695CEFA28B356BB00C2CB62 /* HorizantalCharts.xcdatamodeld */; };
 		E695CEFE28B356BD00C2CB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E695CEFD28B356BD00C2CB62 /* Assets.xcassets */; };
 		E695CF0128B356BD00C2CB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E695CEFF28B356BD00C2CB62 /* LaunchScreen.storyboard */; };
+		E695CF0928B357E700C2CB62 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695CF0828B357E700C2CB62 /* Model.swift */; };
+		E695CF0D28B3585100C2CB62 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695CF0C28B3585100C2CB62 /* Charts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E695CEFD28B356BD00C2CB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E695CF0028B356BD00C2CB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E695CF0228B356BD00C2CB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E695CF0828B357E700C2CB62 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E695CF0C28B3585100C2CB62 /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				E695CEF128B356BB00C2CB62 /* AppDelegate.swift */,
 				E695CEF328B356BB00C2CB62 /* SceneDelegate.swift */,
 				E695CEF528B356BB00C2CB62 /* ViewController.swift */,
+				E695CF0C28B3585100C2CB62 /* Charts.swift */,
+				E695CF0828B357E700C2CB62 /* Model.swift */,
 				E695CEF728B356BB00C2CB62 /* Main.storyboard */,
 				E695CEFD28B356BD00C2CB62 /* Assets.xcassets */,
 				E695CEFF28B356BD00C2CB62 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E695CF0D28B3585100C2CB62 /* Charts.swift in Sources */,
+				E695CF0928B357E700C2CB62 /* Model.swift in Sources */,
 				E695CEF628B356BB00C2CB62 /* ViewController.swift in Sources */,
 				E695CEF228B356BB00C2CB62 /* AppDelegate.swift in Sources */,
 				E695CEFC28B356BB00C2CB62 /* HorizantalCharts.xcdatamodeld in Sources */,
